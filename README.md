@@ -4,7 +4,7 @@ Controller support for **FTL: Faster Than Light** (Steam, version 1.6.14), built
 
 ## Install
 
-1. Download `FTLPad-*.zip` from the [latest release](https://github.com/talama191/FTLPad/releases/latest) and unzip it.
+1. Download [FTLPad.zip](https://github.com/talama191/FTLPad/releases/latest/download/FTLPad.zip) (always the latest release) and unzip it.
 2. Double-click **Install FTLPad.cmd**. It finds FTL through Steam (or asks for the folder).
 3. Start FTL from Steam. The controls card shows on the first launch.
 
@@ -33,5 +33,6 @@ Full control list: `README.txt` in the zip.
 ## Notes
 
 - The DLLs are not code-signed. On a fresh Windows 11 with Smart App Control on, Windows may block them; FTL still runs, just without the prompts.
+- Works at any screen size: it reads FTL's own 1280x720 picture before FTL stretches it to your screen.
 - Settings: `%APPDATA%\FTLPad\config.json`. Log: `%APPDATA%\FTLPad\ftlpad.log`. Turn it off without uninstalling: create an empty file `%APPDATA%\FTLPad\disabled`.
 - Not affiliated with Subset Games.
