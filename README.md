@@ -20,6 +20,9 @@ On a handheld, keep the built-in controller in gamepad (XInput) mode, not deskto
 
 ## What the pad does
 
+FTLPad reads FTL itself (read-only): which screen or popup is open, every button with its click area and name, event choices, rooms, crew and beacons come from the game's own objects, so nothing is guessed from the picture. If this FTL doesn't match (another version, a mod), it reads the picture instead.
+
+- **Crew:** Y selects the next crew member and puts the cursor on them, by name.
 - **Ship:** the D-pad walks room to room, crew, systems, weapons and drones; LB/RB change area. A clicks (power up a system, arm a weapon), B right-clicks (send crew, power down, cancel). RT + A/B/X/Y arms weapons 1-4, RT + D-pad fires drones and the battery.
 - **Events and menus:** the first choice is focused when they open; confirm dialogs default to the safe answer.
 - **Beacon map:** the D-pad goes beacon to beacon at any angle, LB/RB step through the beacons in jump range, Y opens NEXT SECTOR. The cursor starts on your own beacon, never on a jump.
