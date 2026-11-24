@@ -16,7 +16,7 @@ Controller support for **FTL: Faster Than Light** (Steam, version 1.6.14), built
 | `dbghelp_sys.dll` | A copy of your PC's own 32-bit `dbghelp.dll` |
 | `FTLPad.InGame.dll` | FTLPad itself |
 
-On a handheld, keep the built-in controller in gamepad (XInput) mode, not desktop/mouse mode.
+On a handheld, keep the built-in controller in gamepad (XInput) mode, not desktop/mouse mode, and leave Steam Input's mouse emulation off for FTL (FTLPad warns if something else moves the mouse).
 
 ## What the pad does
 
