@@ -36,6 +36,6 @@ Full control list: `README.txt` in the zip.
 ## Notes
 
 - The DLLs are not code-signed. On a fresh Windows 11 with Smart App Control on, Windows may block them; FTL still runs, just without the prompts.
-- Works at any screen size: it reads FTL's own 1280x720 picture before FTL stretches it to your screen.
+- Works at any screen size and display mode: it reads FTL's own 1280x720 picture before FTL scales it, and places the cursor with the same window-to-game mapping FTL applies to a real mouse (read from the game, not guessed from the resolution).
 - Settings: `%APPDATA%\FTLPad\config.json`. Log: `%APPDATA%\FTLPad\ftlpad.log`. Turn it off without uninstalling: create an empty file `%APPDATA%\FTLPad\disabled`.
 - Not affiliated with Subset Games.
