@@ -24,7 +24,7 @@ FTLPad reads FTL itself (read-only): which screen or popup is open, every button
 
 - **Crew:** Y selects the next crew member and puts the cursor on them, by name.
 - **Ship:** A does (select, send selected crew, power up, fire), B undoes (cancel aiming, deselect, power down). LB/RB walk the weapon and drone row and only pick a slot: A arms the weapon (the cursor then goes to the enemy, A fires and it comes back) or deploys the drone. Hold RT for abilities (cloak, battery, hacking, teleport...). The D-pad crosses from area to area. No button combinations.
-- **Events and menus:** the first choice is focused when they open; confirm dialogs default to the safe answer.
+- **Events and menus:** the first choice is focused when they open; an event only takes its choices (FTL locks the ship until you choose); confirm dialogs default to the safe answer.
 - **Beacon map:** the D-pad goes beacon to beacon at any angle, LB/RB step through the beacons in jump range, Y opens NEXT SECTOR. The cursor starts on your own beacon, never on a jump.
 - **Sector map:** pick a ringed sector with LB/RB or the D-pad, A to go, B to close.
 - **Ship screen:** LB/RB switch Upgrades / Crew / Cargo; A upgrades, X takes a level back.
